@@ -19,7 +19,19 @@ public class Book {
         this.paperback = paperback;
     }
 
-        public String toString() {
+    public Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
+    public Book(String title, String author, double price, String genre) {
+        this.title = title;
+        this.author = author;
+        this.price = price;
+        this.genre = genre;
+    }
+
+    public String toString() {
         String book = "";
         book += "Title: " + this.title + "\n";
         book += "Author: " + this.author + "\n";

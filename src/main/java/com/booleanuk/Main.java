@@ -11,5 +11,11 @@ public class Main {
         System.out.println(book);
         System.out.println(book1);
         System.out.println(book2);
+
+        // overloaded constructors
+
+        Book book3 = new Book("A Game of Thrones: Book 3 www", " George R. R. Martin");
+        Book book4 = new Book("A Game of Thrones: Book 4 last book", " George R. R. Martin", 222d, "fantasy");
+
     }
 }
